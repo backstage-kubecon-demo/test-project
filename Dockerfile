@@ -14,4 +14,6 @@ COPY src/ src/
 
 ENTRYPOINT ["ts-node"]
 
+EXPOSE 8080
+
 CMD ["/app/src/index.ts"]

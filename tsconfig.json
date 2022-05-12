@@ -9,9 +9,9 @@
     "forceConsistentCasingInFileNames": true,
     "importHelpers": false,
     "incremental": true,
-    "jsx": "react",
+    "isolatedModules": true,
     "lib": ["DOM", "DOM.Iterable", "ScriptHost", "ES2020"],
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "noEmit": false,
     "noFallthroughCasesInSwitch": true,
@@ -31,8 +31,8 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "stripInternal": true,
-    "target": "ES2019",
-    "types": ["node", "jest", "webpack-env"],
+    "target": "ES2020",
+    "types": [],
     "useDefineForClassFields": true
   }
 }
