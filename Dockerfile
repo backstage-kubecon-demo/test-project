@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN yarn global add ts-node
  
-COPY package.json yarn.lock tsconfig.json .
+COPY package.json yarn.lock tsconfig.json ./
 
 RUN yarn install
 
